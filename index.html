@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+   
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="./images/favicon.png">
+
+    <title>Technical Test</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/hamburger.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="col-md-12 header-icons">
+                   
+                    <input id="burger" type="checkbox" />
+                    <label for="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <nav>    
+                        <ul class="hamburger-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>  
+                    </nav>
+
+                     <form class="navbar-form" role="search">
+                        <div class="input-group add-on">
+                        <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <div class="col-md-12 title-section">
+            <h2 class="title">EC1 GALLERY</h2>
+        </div>
+
+        <div>
+            <img class="mySlides" src="./images/main_image.png" style="width:100%">
+            <img class="mySlides" src="./images/placeholder.jpg" style="width:100%">
+            <img class="mySlides" src="./images/second_placeholder.jpg" style="width:100%">
+        </div>
+
+        <div class="w3-center">
+            <div class="w3-section">
+                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+                <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+            </div>
+
+            <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+            <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+            <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+            <div class="col-md-12 date">
+                <strong>Anselm Kiefer: Walhalla</strong> <br/> Until 12 February 2017, Bermondsey
+            </div>
+
+            <div class="col-md-12">
+                <hr class="line-rule" />
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="events"><strong>News & Events</strong></p>
+                </div>
+                <div class="col-md-6 view-event">
+                    <a>View all</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 left-align">
+                    <img class="events-image" src="./images/event1.png" />
+                    <strong>Exhibition: He Xiangyu monograph released by Distanz</strong> <br/> From March 2016
+
+                    <p>He Xiangyu and Liu Wei are among 74 international artists form 33 countries chosen to feature in the
+                        Yinchaun Biennale 2016
+                    </p>
+                </div>
+                <div class="col-md-4 left-align">
+                    <img class="events-image" src="./images/event2.png" />
+                    <strong>Exhibition: Runa Islam at SFMOMA, San Francisco</strong> <br/> From March 2016
+
+                    <p>'Verso', SFMOMA's solo presentation of Bangladeshi-born British artist Runa Islam, features the US premiere
+                        of Cabinet of Prototypes [2009-10]
+                    </p>
+                </div>
+                <div class="col-md-4 left-align">
+                    <img class="events-image" src="./images/event3.png" />
+                    <strong>Exhibition: Runa ISlam at SFMOMA, San Francisco</strong> <br/> 19 January 2017, 6 to 8pm
+                    <p>Join us at Mason's Yard, London for the preview of the new Park Seo-Bo exhibition curated by Katharine
+                        Kostyal. Curated by Catharine Kostyal
+                    </p>
+                </div>
+
+                <div class="col-md-12">
+                    <hr class="line-rule" />
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="events"><strong>Channel</strong></p>
+                    </div>
+                    <div class="col-md-6 view-event">
+                        <a>View all</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/7HSd1sk07uU" frameborder="0" gesture="media" allow="encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 left-align">
+                        <p><strong>Anselm Kiefer</strong></p>
+                        In conversation with Tim Marlow <br/> In the Auditorium
+                    </div>
+                    <div class="col-md-6 left-align">
+                        In this film Anselm Kiefer discusses his work and his exhibition 'Walhalla' at White Cube Bermondsey with Tim Marlow
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <hr class="line-rule" />
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="events"><strong>Artists</strong></p>
+                    </div>
+                    <div class="col-md-6 view-event">
+                        <a>View all</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-3">
+                            <ul class="name-list">
+                                <li><a>Frantz Ackermann</a></li>
+                                <li><a>Etel Adnan</a></li>
+                                <li><a>Darren Almond</a></li>
+                                <li><a>Ellen Altfest</a></li>
+                                <li><a>Michel Armitage</a></li>
+                                <li><a>Miroslaw Balka</a></li>
+                                <li><a>Georg Baselitz</a></li>
+                                <li><a>Larry Bell</a></li>
+                                <li><a>Jake & Dinos Champman</a></li>
+                                <li><a>Chuck Close</a></li>
+                                <li><a>Gregory Crewdson</a></li>
+                                <li><a>Tracey Emin</a></li>
+                                <li><a>Katharina Fritsch</a></li>
+                                <li><a>Thester Gates</a></li>
+                                <li><a>Gilbert & George</a></li>
+                                <li><a>Antony Gormley</a></li>
+                                <li><a>Andreas Gursky</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="name-list">
+                                <li><a>David Hammons</a></li>
+                                <li><a>Mona Hatoum</a></li>
+                                <li><a>He Xiangyu</a></li>
+                                <li><a>Damien Hirst</a></li>
+                                <li><a>Robert Irwin</a></li>
+                                <li><a>Runa Islam</a></li>
+                                <li><a>Sergej Jensen</a></li>
+                                <li><a>Anselm Kiefer</a></li>
+                                <li><a>Rachel Kneebone</a></li>
+                                <li><a>Imi Knoebel</a></li>
+                                <li><a>Elad Lassry</a></li>
+                                <li><a>Liza Lou</a></li>
+                                <li><a>Jac Leirner</a></li>
+                                <li><a>Liu Wei</a></li>
+                                <li><a>Christian Marclay</a></li>
+                                <li><a>Josiah McElheny</a></li>
+                                <li><a>Julie Mehretu</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="name-list">
+                                <li><a>Beatriz Milhazes</a></li>
+                                <li><a>Harland Miller</a></li>
+                                <li><a>Sarah Morris</a></li>
+                                <li><a>Gabriel Orozco</a></li>
+                                <li><a>Damian Ortega</a></li>
+                                <li><a>Virgina Overton</a></li>
+                                <li><a>Eddie Peake</a></li>
+                                <li><a>Magnus Plessen</a></li>
+                                <li><a>Jessica Rankin</a></li>
+                                <li><a>Christian Rosa</a></li>
+                                <li><a>Doris Salecedo</a></li>
+                                <li><a>Raqib Shaw</a></li>
+                                <li><a>Haim Steinbach</a></li>
+                                <li><a>Sam Taylor-Johnson</a></li>
+                                <li><a>Fred Tomaselli</a></li>
+                                <li><a>Jeff Wall</a></li>
+                                <li><a>Cerith Wyn Evans</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="events-image" src="./images/ec1_home.jpg" alt="home"/>
+                        </div>
+
+                        <div class="col-md-12">
+                            <hr class="line-rule" />
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6 newsletter">
+                                    <ul class="contact-list">
+                                        <li><a><strong>Newsletter</strong></a></li>
+                                        <li><a><strong>Contact</strong></a></li>
+                                        <li><a><strong>Press rooms</strong></a></li>
+                                    </ul>
+                                    EC1 GALLERY <br/>
+                                    344 Clerkenwell Road <br/>
+                                    LondonEC1 5RS <br/>
+                                    EC1 5RS <br />
+                                    Tel +44 (0) 207 123 4567
+                                </div>
+                                <div class="col-md-6 socials">
+                                    <img src="./images/facebook.png" alt="facebook"/>
+                                    <img src="./images/twitter.png" alt="twitter"/>
+                                    <img src="./images/youtube.png" alt="youtube"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 footer-color">
+                                <div class="col-md-6 newsletter">
+                                    <p class="copyright">&copy; 2017 GALLERY</p>
+                                </div>
+
+                                 <div class="col-md-6 copyright">
+                                    <ul class="footer-list">
+                                        <li><a>Cookie policy</a></li>
+                                        <li><a>Terms of sale</a></li>
+                                        <li><a>Privacy notice</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/custom.js"></script>
+</body>
+</html>
